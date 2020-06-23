@@ -1,0 +1,37 @@
+// Example program
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int m1; int m2;int m3; int soma;
+    
+  printf("maquina de coca/");
+  
+  printf("/lata 0,45 centavos");
+  
+  printf("aceita modedas de 0,25 e 0,10");
+  
+  printf("digite  moeda de 25 ");
+  
+  printf("digite  moeda de 10");
+  
+  printf("entre com as moedas");
+  scanf("%d",&m1);
+  
+  printf("entre com as moedas");
+  scanf("%d",&m2);
+  
+  printf("entre com as moedas");
+  scanf("%d",&m3);
+  
+  soma=(m1+m2+m3);
+  
+  
+  if(soma==45)
+  printf("refrigerante entregue");
+  else printf("valor errado");
+  
+  
+  
+}
